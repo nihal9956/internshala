@@ -1,0 +1,107 @@
+
+.slider{
+
+  margin-top:-50px;
+}
+  .carousel__container>img{
+    width:100vw;
+    height:102vh;
+  
+  }
+
+  .carousel.carousel-slider .control-arrow{
+
+    display: none;
+  }
+
+  .carousel .carousel-status {
+    display: none;
+  }
+
+.carousel .thumbs-wrapper{
+
+  display: none;
+}
+
+.carousel .control-dots {
+    left:-41%;
+    bottom:80px !important;
+   
+}
+
+.carousel .control-dots .dot.selected{
+  background-color: goldenrod !important;
+
+}
+.carousel .control-dots .dot{
+
+  width:20px !important;
+  height:20px !important;
+  background-color:white !important;
+  opacity:1 !important;
+}
+
+.carousel .control-dots .dot:focus{
+
+  outline: none !important;
+}
+
+.carousel__detailes{
+
+  position: absolute;
+  top:30%;
+  left:5%;
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.carousel__detailes>h1,
+.carousel__detailes>p{
+
+  color:white;
+
+}
+
+.carousel__detailes>button{
+
+  border-radius:500px;
+  padding:10px;
+  width:200px;
+  border:none;
+  font-size:25px;
+  font-weight:400;
+  color:white;
+  background-color:goldenrod;
+  cursor: pointer;
+}
+
+.carousel__detailes>button:hover{
+
+  background-color:white;
+  color:black;
+}
+.carousel__detailes>h1{
+
+  font-size:35px;
+  margin-bottom:40px;
+}
+.carousel__detailes>p{
+
+  font-size:20px;
+  margin-top:-20px;
+  letter-spacing:2px;
+}
+
+.divider{
+
+  position:absolute;
+  top:15%;
+   border:1.5px solid white;
+   width:92%;
+   border-top:0;
+   border-left:0;
+   border-right:0;
+   margin:10px 30px;
+   margin-right:20px;
+}

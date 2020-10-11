@@ -1,0 +1,53 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .slider{
+
+        margin-top:-130px;
+      }
+    .carousel__container>img{
+      
+        object-fit:cover;
+       
+      
+      }
+      .carousel .control-dots {
+        left:-34%;
+        bottom:150px !important;}
+
+        .carousel .control-dots .dot{
+
+            width:12px !important;
+            height:12px !important;
+           
+          }
+
+          .carousel__detailes>button{
+            font-size:15px;
+            }
+            .carousel__detailes>h1{
+
+                font-size:30px;
+              }
+              .carousel__detailes>p{
+
+                font-size:15px;
+                margin-top:-10px;
+             
+              }
+          
+              .divider{
+                  display: none;
+              }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    .carousel .control-dots {
+        left:-38%;
+        bottom:350px !important;}
+
+}
